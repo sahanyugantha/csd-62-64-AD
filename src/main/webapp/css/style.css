@@ -1,0 +1,23 @@
+.my-title{
+	text-align: center;
+	margin-bottom : 40px;
+}
+
+#bmi-form{
+	background-color: #c6f2cb;
+	padding: 20px;
+}
+
+#btn-check{
+	background-color: green;
+	border-color: #07b998;
+}
+
+#bmi-title{
+	background-color: #c6f2cb;
+    display: inline-block;
+    margin-bottom: 0px;
+    padding: 10px;
+    border-radius: 20px 20px 0px 0px;
+    color: #62620c;
+}
