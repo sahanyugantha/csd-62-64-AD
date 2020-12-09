@@ -33,11 +33,11 @@
 			<form id="bmi-form" action="bmi" method="get">
 				 <div class="form-group">
 				    <label for="weight">Enter your weight (kg)</label>
-				    <input type="text" name="u-weight" class="form-control" id="weight">
+				    <input type="number" name="u-weight" class="form-control" id="weight">
 				 </div>
 				  <div class="form-group">
-				    <label for="height">Enter your height (m)</label>
-				    <input type="text" name="u-height" class="form-control" id="height">
+				    <label for="height">Enter your height (cm)</label>
+				    <input type="number" name="u-height" class="form-control" id="height">
 				 </div>
 				 <button id="btn-check" type="submit" class="btn btn-primary">Check</button>
 			</form>
