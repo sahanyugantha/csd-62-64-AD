@@ -49,5 +49,21 @@ public class HealthServlet extends HttpServlet{
 		return bmi_rd;
 		
 	}
+	
+	
+	/**
+	 * This method is just for learn Unit testing.
+	 * @param num1
+	 * @param num2
+	 * @return
+	 */
+	public int addTwoNumbers(int num1, int num2) {
+		
+		int total = num1 + num2;
+		
+		return total;
+		
+	}
+
 
 }

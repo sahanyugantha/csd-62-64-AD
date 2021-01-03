@@ -7,8 +7,16 @@
 		<servlet-name>health</servlet-name>
 		<servlet-class>com.sahan.csd62and64.HealthServlet</servlet-class>
 	</servlet>
+	<servlet>
+		<servlet-name>signin</servlet-name>
+		<servlet-class>com.sahan.csd62and64.SigninServlet</servlet-class>
+	</servlet>
 	<servlet-mapping>
 		<servlet-name>health</servlet-name>
 		<url-pattern>/bmi</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>signin</servlet-name>
+		<url-pattern>/signin</url-pattern>
 	</servlet-mapping>
 </web-app>
