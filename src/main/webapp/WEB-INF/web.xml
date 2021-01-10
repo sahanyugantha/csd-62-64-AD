@@ -11,6 +11,10 @@
 		<servlet-name>signin</servlet-name>
 		<servlet-class>com.sahan.csd62and64.SigninServlet</servlet-class>
 	</servlet>
+	<servlet>
+		<servlet-name>signout</servlet-name>
+		<servlet-class>com.sahan.csd62and64.SignoutServlet</servlet-class>
+	</servlet>
 	<servlet-mapping>
 		<servlet-name>health</servlet-name>
 		<url-pattern>/bmi</url-pattern>
@@ -18,5 +22,9 @@
 	<servlet-mapping>
 		<servlet-name>signin</servlet-name>
 		<url-pattern>/signin</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>signout</servlet-name>
+		<url-pattern>/signout</url-pattern>
 	</servlet-mapping>
 </web-app>

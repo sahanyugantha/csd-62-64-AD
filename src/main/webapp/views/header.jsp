@@ -21,8 +21,31 @@
         <a class="nav-link" href="index.jsp">Home</a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="signin.jsp">Sign in</a>
+        <a class="nav-link" href="health.jsp">BMI</a>
       </li>
-    </ul>
+      <%
+      	HttpSession httpSession = request.getSession();
+      	if(httpSession.getAttribute("logged_in") != null && (Boolean)httpSession.getAttribute("logged_in") == true){
+      
+      %>
+      
+      	<li class="nav-item active">
+	        <a class="nav-link" href="signout.jsp">Sign out</a>
+	      </li>
+	      
+	     </ul>
+	      
+	        <a id="u-profile" class="nav-link" href="profile.jsp"><% out.print(httpSession.getAttribute("u_name")); %></a>
+	      
+	   <% } else { %>
+      
+	      <li class="nav-item active">
+	        <a class="nav-link" href="signin.jsp">Sign in</a>
+	      </li>
+	      
+	       </ul>
+	   <% } %>
+	      
+  
   </div>
 </nav>
